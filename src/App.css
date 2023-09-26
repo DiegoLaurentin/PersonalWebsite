@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'AtypDisplay-Regular';
+  src: url('./fonts/AtypDisplay-Regular.ttf') format('truetype');
+  /* Agrega aquí otras propiedades de fuente si es necesario */
+}
+
+@font-face {
+  font-family: 'AtypDisplay-Bold';
+  src: url('./fonts/AtypDisplay-Bold.ttf') format('truetype');
+  /* Agrega aquí otras propiedades de fuente si es necesario */
+}
+
+@font-face {
+  font-family: 'AtypDisplay-Light';
+  src: url('./fonts/AtypDisplay-Light.ttf') format('truetype');
+  /* Agrega aquí otras propiedades de fuente si es necesario */
+}
+
+@font-face {
+  font-family: 'AtypDisplay-Semibold';
+  src: url('./fonts/AtypDisplay-Semibold.ttf') format('truetype');
+  /* Agrega aquí otras propiedades de fuente si es necesario */
+}
+
+@font-face {
+  font-family: 'AtypDisplay-Medium';
+  src: url('./fonts/AtypDisplay-Medium.ttf') format('truetype');
+  /* Agrega aquí otras propiedades de fuente si es necesario */
+}
+
+.font-bold {
+  font-family: 'AtypDisplay-Bold', sans;
+}
+
+.font-semibold {
+  font-family: 'AtypDisplay-Semibold', sans;
+}
+
+.font-medium {
+  font-family: 'AtypDisplay-Medium', sans;
+}
+
+.font-regular {
+  font-family: 'AtypDisplay-Regular', sans;
+}
+
+.img-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(20px, 20px); /* Ajusta la posición según tus necesidades */
+  width: 100px; /* Ajusta el tamaño de la imagen */
+  height: auto; /* Para mantener la relación de aspecto */
+}
