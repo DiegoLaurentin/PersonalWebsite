@@ -6,7 +6,7 @@ function App() {
     <div className="h-screen bg-black relative">
       {/* Contenedor de la imagen */}
       <div className="img-container">
-        <img src="./src/assets/laurentin-positivo.png" alt="Logo" />
+        <img src="laurentin-positivo.png" alt="Logo" />
       </div>
 
       {/* Contenido principal */}

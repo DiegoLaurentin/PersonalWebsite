@@ -26,7 +26,7 @@ export default {
         }
       },
       animation: {
-        typing: "typing 3s steps(20) infinite alternate, blink .7s infinite"
+        typing: "typing 2.5s steps(20) infinite alternate, blink .7s infinite"
       },
       backgroundColor: {
         'black': '#202023',
