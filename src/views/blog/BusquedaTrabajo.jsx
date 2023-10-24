@@ -25,7 +25,7 @@ function BusquedaTrabajo() {
                     <div className='flex pt-3'>
                         <img src={diegoLaurentin} alt="" className="h-max pt-3" />
                         <div className="flex flex-col justify-end h-full pl-4">
-                            <h1 className="text-white font-medium text-lg md:text-4xl" style={{padding: '0 1rem'}}>
+                            <h1 className="text-white font-medium text-lg md:text-4xl">
                                 Búsqueda de trabajo y certificaciones en IA y ML
                             </h1>
                             <p className="text-white text-sm">24 octubre 2023 | 10 minutos de lectura</p>

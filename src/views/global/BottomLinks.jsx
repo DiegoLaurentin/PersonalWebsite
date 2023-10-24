@@ -2,7 +2,7 @@ import React from 'react';
 
 function BottomLinks() {
   return (
-    <div className="flex text-white space-x-6 justify-center pt-20 pb-20">
+    <div className="flex text-white space-x-6 justify-center pt-20 pb-20" style={{paddingLeft: '1rem', paddingRight: '1rem'}}>
         <a href="https://github.com/DiegoLaurentin">Github</a>
         <a href="https://www.linkedin.com/in/diegolaurentin/">LinkedIn</a>
         <a href="https://www.instagram.com/diegolaurentin/">Instagram</a>

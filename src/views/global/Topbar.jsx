@@ -9,7 +9,7 @@ import LinkedIn from "../../assets/icons/LinkedIn.png"
 
 function TopBar() {
     return (
-        <div className="top-bar flex justify-between m-6" style={{ position: 'fixed', top: 0, left: 0, right: 0 }}>
+        <div className="bg-black top-bar flex justify-between p-6" style={{ position: 'fixed', top: 0, left: 0, right: 0 }}>
             <div className="w-28">
                 <a href="/"><img src={logotype} alt="Logo" /></a>
             </div>
