@@ -15,7 +15,6 @@ function TopBar() {
             </div>
             <div className='flex space-x-5'>
                 <a href="https://github.com/DiegoLaurentin"><img src={Github} alt="" /></a>
-                <a href="/busqueda-trabajo-certificaciones-ai-ml"><img src={Github} alt="" /></a>
                 <a href="https://www.linkedin.com/in/diegolaurentin/"><img src={LinkedIn} alt="" /></a>
 
                 <a href="https://www.instagram.com/diegolaurentin/"><img src={Instagram} alt="" /></a>
