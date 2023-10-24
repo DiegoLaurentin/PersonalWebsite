@@ -44,11 +44,11 @@
   font-family: 'AtypDisplay-Regular', sans;
 }
 
-.img-container {
+/* .img-container {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate(20px, 20px); /* Ajusta la posición según tus necesidades */
-  width: 100px; /* Ajusta el tamaño de la imagen */
-  height: auto; /* Para mantener la relación de aspecto */
-}
+  transform: translate(20px, 20px); Ajusta la posición según tus necesidades
+  width: 100px; Ajusta el tamaño de la imagen
+  height: auto; Para mantener la relación de aspecto
+} */
