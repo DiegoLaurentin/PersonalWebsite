@@ -17,25 +17,7 @@ function BusquedaTrabajo() {
 
             <TopBar />
 
-            <div className="max-w-[800px] mx-auto relative pt-24">
-                {/* <header>
-                    <picture>
-                        <img src={ia_banner} alt="" />
-                    </picture>
-                    <div>
-                        <div className="flex flex-col justify-end h-full">
-                            <h1 className="text-white font-medium text-4xl">
-                                Búsqueda de trabajo y certificaciones en IA y ML
-                            </h1>
-                            <div className='flex'>
-                                <img src={diegoLaurentin} alt="" className="h-9" />
-                                <p className="text-white text-sm pl-2 self-center">24 octubre 2023 | 10 minutos de lectura</p>
-
-                            </div>
-                        </div>
-                    </div>
-                </header> */}
-
+            <div className="max-w-[800px] mx-auto relative pt-24" style={{paddingLeft: '1rem', paddingRight: '1rem'}}>
                 <header>
                     <picture>
                         <img src={ia_banner} alt="" />
@@ -43,7 +25,7 @@ function BusquedaTrabajo() {
                     <div className='flex pt-3'>
                         <img src={diegoLaurentin} alt="" className="h-max pt-3" />
                         <div className="flex flex-col justify-end h-full pl-4">
-                            <h1 className="text-white font-medium text-4xl">
+                            <h1 className="text-white font-medium text-lg md:text-4xl" style={{padding: '0 1rem'}}>
                                 Búsqueda de trabajo y certificaciones en IA y ML
                             </h1>
                             <p className="text-white text-sm">24 octubre 2023 | 10 minutos de lectura</p>
