@@ -1,5 +1,5 @@
 import Home from '../views/Home';
-import BusquedaTrabajo from '../views/blog/busquedaTrabajo.jsx';
+import BusquedaTrabajo from '../views/blog/BusquedaTrabajo.jsx';
 
 const routes = [
   {
