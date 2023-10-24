@@ -7,7 +7,7 @@ const routes = [
     element: <Home />,
   },
   {
-    path: '/busqueda-trabajo-certificaciones-ai-ml/',
+    path: '/busqueda-trabajo-certificaciones-ai-ml',
     element: <BusquedaTrabajo />,
   },
 ];
