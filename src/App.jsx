@@ -10,8 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/test" element={<Home />} />
-        <Route path="/busqueda-trabajo" element={<BusquedaTrabajo />} />
+        <Route path="/busqueda-trabajo-certificaciones-ai-ml" element={<BusquedaTrabajo />} />
       </Routes>
     </BrowserRouter>
   );
