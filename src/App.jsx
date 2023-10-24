@@ -1,14 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import routes from './routes/routes';
-
-//ROUTES
-import Home from './views/Home';
-import BusquedaTrabajo from './views/blog/BusquedaTrabajo.jsx';
-
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import routes from './routes/routes';
 
 //ROUTES
 import Home from './views/Home';
