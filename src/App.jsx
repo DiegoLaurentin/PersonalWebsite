@@ -2,13 +2,25 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import routes from './routes/routes';
 
+//ROUTES
+import Home from './views/Home';
+import BusquedaTrabajo from './views/blog/BusquedaTrabajo.jsx';
+
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import routes from './routes/routes';
+
+//ROUTES
+import Home from './views/Home';
+import BusquedaTrabajo from './views/blog/BusquedaTrabajo.jsx';
+
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {routes.map((route) => (
-          <Route key={route.path} path={route.path} element={route.element} />
-        ))}
+        <Route path="/" element={<Home />} />
+        <Route path="/test" element={<Home />} />
+        <Route path="/busqueda-trabajo" element={<BusquedaTrabajo />} />
       </Routes>
     </BrowserRouter>
   );
