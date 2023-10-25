@@ -10,6 +10,9 @@ import ia_banner from "../../assets/busquedaTrabajo/ia-banner.png"
 import ia_interview from "../../assets/busquedaTrabajo/ia-interview.png"
 import ia_conclution from "../../assets/busquedaTrabajo/ia-conclution.png"
 
+//PDF
+import PDF from "../../assets/busquedaTrabajo/Diego Laurentin - Búsqueda de trabajo y certificaciones en IA y ML.pdf"
+
 
 function BusquedaTrabajo() {
     return (
@@ -17,7 +20,7 @@ function BusquedaTrabajo() {
 
             <TopBar />
 
-            <div className="max-w-[800px] mx-auto relative pt-24" style={{paddingLeft: '1rem', paddingRight: '1rem'}}>
+            <div className="max-w-[800px] mx-auto relative pt-24" style={{ paddingLeft: '1rem', paddingRight: '1rem' }}>
                 <header>
                     <picture>
                         <img src={ia_banner} alt="" />
@@ -28,7 +31,10 @@ function BusquedaTrabajo() {
                             <h1 className="text-white font-medium text-lg md:text-4xl">
                                 Búsqueda de trabajo y certificaciones en IA y ML
                             </h1>
-                            <p className="text-white text-sm">24 octubre 2023 | 10 minutos de lectura</p>
+                            <div className='flex'>
+                                <p className="text-white text-sm">24 octubre 2023 | 10 minutos de lectura |</p>
+                                <a className='ml-2 text-white text-sm border-b' href={PDF} download="Diego Laurentin - Búsqueda de trabajo y certificaciones en IA y ML">Descargar PDF</a>
+                            </div>
                         </div>
                     </div>
                 </header>

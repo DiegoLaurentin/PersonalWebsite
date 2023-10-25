@@ -1,9 +1,9 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, HashRouter, Link } from 'react-router-dom';
+import { Routes, Route, HashRouter, Link } from 'react-router-dom';
 
 //ROUTES
 import Home from './views/Home';
-import BusquedaTrabajo from './views/blog/BusquedaTrabajo.jsx';
+import BusquedaTrabajo from './views/blog/busquedaTrabajo';
 
 function App() {
   return (
