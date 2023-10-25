@@ -3,7 +3,7 @@ import { Routes, Route, HashRouter, Link } from 'react-router-dom';
 
 //ROUTES
 import Home from './views/Home';
-import BusquedaTrabajo from './views/blog/busquedaTrabajo';
+import BusquedaTrabajo from './views/blog/BusquedaTrabajo';
 
 function App() {
   return (
