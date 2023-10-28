@@ -31,7 +31,7 @@ function LinearRegression() {
     return (
         <div className="h-full bg-black" style={{ marginTop: 0 }}>
 
-            <TopBar />
+            <TopBar/>
 
             <div className="max-w-[800px] mx-auto relative pt-24" style={{ paddingLeft: '1rem', paddingRight: '1rem' }}>
                 <header>
