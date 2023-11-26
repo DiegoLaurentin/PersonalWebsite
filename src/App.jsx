@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter, Link } from 'react-router-dom';
 
 //ROUTES
 import Home from './views/Home';
@@ -8,13 +8,18 @@ import LinearRegression from './views/blog/LinearRegresion/LinearRegression';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
+      <Link to="/busqueda-trabajo-certificaciones-ai-ml" />
+      <Link to="/regresion-lineal" />
+
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/busqueda-trabajo-certificaciones-ai-ml" element={<BusquedaTrabajo />} />
-        <Route path="/regresion-lineal" element={<LinearRegression />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/busqueda-trabajo-certificaciones-ai-ml" element={<BusquedaTrabajo />} />
+        <Route exact path="/regresion-lineal" element={<LinearRegression />} />
       </Routes>
-    </Router>
+
+    </HashRouter>
+
   );
 }
 
