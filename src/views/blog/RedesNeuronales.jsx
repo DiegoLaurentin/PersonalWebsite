@@ -44,12 +44,7 @@ function RedesNeuronales() {
 
         <div className="text-white mt-12 text-lg">
           <p className="pb-8">
-            La comprensión de la complejidad en sistemas y redes complejas es
-            esencial para abordar los desafíos contemporáneos en campos que van
-            desde la inteligencia artificial hasta la investigación científica.
-            En este resumen, exploraremos un video introductorio de un taller
-            sobre complejidad, analizando sus cuatro partes y reflexionando
-            sobre las ideas presentadas.
+          La comprensión de la complejidad en sistemas y redes complejas es esencial para abordar los desafíos contemporáneos en campos que van desde la inteligencia artificial hasta la investigación científica. En este resumen, exploraremos el video introductorio del taller sobre complejidad, disponible en el enlace <u><a href="https://www.youtube.com/watch?v=cUnQj1q-QVQ">aquí</a></u>, presentado por el profesor Juan Martínez. Analizaremos las cuatro partes del taller y reflexionaremos sobre las ideas presentadas por el profesor, ofreciendo una visión detallada de los conceptos fundamentales de la complejidad en sistemas y redes complejas.
           </p>
 
           <p className="pb-8">
